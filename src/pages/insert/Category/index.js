@@ -28,7 +28,7 @@ function InsertCategory() {
 
   useEffect(() => {
     if (window.location.href.includes("localhost")) {
-      const URL = `http://localhost:8080/categories`;
+      const URL = `https://eacflix.herokuapp.com/categories`;
       fetch(URL).then(async (serverResponse) => {
         if (serverResponse.ok) {
           const response = await serverResponse.json();
