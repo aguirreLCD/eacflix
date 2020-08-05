@@ -1,0 +1,254 @@
+{
+  "categories": [
+    {
+      "title": "Acoustical Engineering",
+      "link": "https://www.youtube.com/watch?v=QL1TVyWI6l8",
+      "color": "#c00000",
+      "link_extra": {
+        "text": "#Sergio Luiz Aguirre",
+        "url": "https://www.youtube.com/user/serginhodjk/videos"
+      },
+      "videos": [
+        {
+          "title": "Engenharia Acústica no dia a dia na Dinamarca",
+          "url": "https://www.youtube.com/watch?v=JZrJmnMsgI4"
+        },
+        {
+          "title": "Engenharia Acústica | Acoustical Engineering | DICAS DE SOBREVIVÊNCIA NA SELVA",
+          "url": "https://www.youtube.com/watch?v=SAtwoFGgs8Q"
+        },
+        {
+          "title": "Visão de um ex aluno | Q&A III Semana Acadêmica EAC",
+          "url": "https://www.youtube.com/watch?v=28TyFaffeHg"
+        },
+        {
+          "title": "Engenharia Acústica | PRO TIPS",
+          "url": "https://www.youtube.com/watch?v=3N2ebT4MVPc"
+        },
+        {
+          "title": "Avaliação anual do doutorado na Universidade de Nottingham. First Year Review",
+          "url": "https://www.youtube.com/watch?v=72KoyOXOoj8"
+        },
+        {
+          "title": "Experiências de Educação - Engenheiros compartilhando suas experiências",
+          "url": "https://www.youtube.com/watch?v=tjyHdbbUIo8&t=1s"
+        },
+        {
+          "title": "Contei meu caminho na Engenharia Acústica",
+          "url": "https://www.youtube.com/watch?v=vJSLEwAC5Gs&t=13s"
+        }
+      ]
+    },
+    {
+      "title": "A PhD student's routine in DK",
+      "link": "https://www.youtube.com/user/serginhodjk/videos",
+      "color": "#00c0c0",
+      "link_extra": {
+        "text": "#Sergio Luiz Aguirre",
+        "url": "https://www.youtube.com/user/serginhodjk/videos"
+      },
+      "videos": [
+        {
+          "title": "Rotina de ESR - Segunda-feira",
+          "url": "https://www.youtube.com/watch?v=NMkeUTr-VnM&t=19s"
+        },
+        {
+          "title": "Rotina de ESR - Terça-feira",
+          "url": "https://www.youtube.com/watch?v=iXen-2JEI3Q"
+        },
+        {
+          "title": "Rotina de ESR - Quarta-feira",
+          "url": "https://www.youtube.com/watch?v=WzgVWNzkDjI&t=1s"
+        },
+        {
+          "title": "Rotina de ESR - Quinta-feira e Sexta-feira",
+          "url": "https://www.youtube.com/watch?v=9j0AFlwcImo&t=2s"
+        }
+      ]
+    },
+    {
+      "title": "Front End",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "color": "#3185fc",
+      "link_extra": {
+        "text": "Front End Courses at Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      },
+      "videos": [
+        {
+          "title": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+        },
+        {
+          "title": "SEO com React",
+          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        },
+        {
+          "title": "Componentização com VanillaJS #AluraMais",
+          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+        },
+        {
+          "title": "Pare de chutar e aprenda a display: inline #01",
+          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+        },
+        {
+          "title": "Template String: Interpolando strings com JavaScript #AluraMais",
+          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+        },
+        {
+          "title": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+        },
+        {
+          "title": "Novidades do Angular v9",
+          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+        },
+        {
+          "title": "Base para aprender os frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        }
+      ]
+    },
+    {
+      "title": "Back End",
+      "color": "#6b5be2",
+      "link_extra": {
+        "text": "Back End courses at Alura",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      },
+      "videos": [
+        {
+          "title": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
+          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+        },
+        {
+          "title": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
+          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+        },
+        {
+          "title": "Programei 4 robôs que criam vídeos para mim no YouTube",
+          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+        },
+        {
+          "title": "API: Dicionário do Programador",
+          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+        },
+        {
+          "title": "Usando Git Direito",
+          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+        }
+      ]
+    },
+    {
+      "title": "Data Science and Artificial Intelligence",
+      "color": "#9cd33b",
+      "link_extra": {
+        "text": "Data Science courses at Alura",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "title": "Teste de Turing",
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+        },
+        {
+          "title": "O que é Data Science?",
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+        },
+        {
+          "title": "Melhor forma de aprender Python",
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+        },
+        {
+          "title": "Como ingressar no mercado de Data Science?",
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        }
+      ]
+    },
+    {
+      "title": "Movies",
+      "color": "rgb(70, 70, 70)",
+      "link_extra": {
+        "text": "It's popcorn time!"
+      },
+      "videos": [
+        {
+          "title": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "title": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "title": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "title": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    },
+    {
+      "title": "Games",
+      "color": "#2A7AE4",
+      "link_extra": {
+        "text": "Training Games at Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "title": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "title": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "title": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "title": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "title": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "title": "Learning to learn technology",
+      "color": "#c00000",
+      "link_extra": {
+        "text": "Learning courses at Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "title": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "title": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "title": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "title": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "title": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}

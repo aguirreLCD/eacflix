@@ -1,0 +1,30 @@
+@media (max-width: 800px) {
+  .imgNotFound {
+    max-width: 290px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--primary);
+    border-radius: 0;
+    border: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    --bodyPaddingTop: 40px;
+    padding-top: var(--bodyPaddingTop);
+  }
+  h1 {
+    text-align: center;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+.imgNotFound {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
