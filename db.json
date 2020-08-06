@@ -68,6 +68,12 @@
       "description": "Learning English",
       "color": "#00ffff",
       "id": 8
+    },
+    {
+      "title": "Workout",
+      "description": "Move your body baby!",
+      "color": "#9900ff",
+      "id": 9
     }
   ],
   "videos": [
@@ -316,6 +322,12 @@
       "url": "https://www.youtube.com/watch?v=nlnbWicrLbE",
       "categoryId": 8,
       "id": 41
+    },
+    {
+      "title": "10 MIN TONED ARMS WORKOUT ",
+      "url": "https://www.youtube.com/watch?v=l0CwCvJbGZI",
+      "categoryId": 9,
+      "id": 42
     }
   ]
 }

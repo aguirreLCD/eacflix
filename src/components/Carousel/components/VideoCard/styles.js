@@ -33,6 +33,5 @@ export const VideoCardContainer = styled.a`
     font-size: 13px;
     color: black;
     background: #00ccdd;
-    padding: 5px 10px 5px 0;
   }
 `;
