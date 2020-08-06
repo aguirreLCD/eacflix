@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import PageDefault from "../../../components/PageDefault";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
+import useForm from "../../../hooks/useForm";
 
 function InsertCategory() {
   const initialValues = {
@@ -11,33 +12,18 @@ function InsertCategory() {
     color: "#c00000",
   };
 
+  const { handleChange, values, clearForm } = useForm(initialValues);
+
   const [categories, setCategories] = useState([]);
 
-  const [values, setValues] = useState(initialValues);
-
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
-
-  function handleChange(eventInfos) {
-    setValue(eventInfos.target.getAttribute("name"), eventInfos.target.value);
-  }
-
   useEffect(() => {
-    if (window.location.href.includes("localhost")) {
-      const URL = `https://eacflix.herokuapp.com/categories`;
-      fetch(URL).then(async (serverResponse) => {
-        if (serverResponse.ok) {
-          const response = await serverResponse.json();
-          setCategories(response);
-          return;
-        }
-        throw new Error("error: can't get data");
-      });
-    }
+    const URL = window.location.hostname.includes("localhost")
+      ? "http://localhost:8080/categories"
+      : "https://eacflix.herokuapp.com/categories";
+    fetch(URL).then(async (serverResponse) => {
+      const response = await serverResponse.json();
+      setCategories([...response]);
+    });
   }, []);
 
   return (
@@ -51,7 +37,7 @@ function InsertCategory() {
 
             setCategories([...categories, values]);
 
-            setValues(initialValues);
+            clearForm();
           }}
         >
           <FormField
@@ -80,6 +66,8 @@ function InsertCategory() {
 
           <Button>Insert</Button>
         </form>
+
+        {categories.length === 0 && <div>Loading...</div>}
 
         <ul>
           {categories.map((category, index) => {
