@@ -12,9 +12,9 @@ function InsertVideo() {
   const [categories, setCategories] = useState([]);
   const categoryTitles = categories.map(({ title }) => title);
   const { handleChange, values } = useForm({
-    title: "Default video",
-    url: "https://www.youtube.com/watch?v=jEtv9d4MT70",
-    category: "Acoustical Engineering",
+    title: "",
+    url: "",
+    category: "",
   });
 
   useEffect(() => {
@@ -49,6 +49,7 @@ function InsertVideo() {
         >
           <FormField
             label="Video Title"
+            type="text"
             name="title"
             value={values.title}
             onChange={handleChange}
@@ -56,6 +57,7 @@ function InsertVideo() {
 
           <FormField
             label="URL"
+            type="url"
             name="url"
             value={values.url}
             onChange={handleChange}
@@ -63,6 +65,7 @@ function InsertVideo() {
 
           <FormField
             label="Category"
+            type="suggestion"
             name="category"
             value={values.category}
             onChange={handleChange}
@@ -75,7 +78,14 @@ function InsertVideo() {
         <br />
         <br />
 
-        <Link to="/insert/category">Add new category</Link>
+        <Link to="/insert/category">
+          ...now, we can Add a new category here
+        </Link>
+
+        <br />
+        <br />
+
+        <Link to="/">Or, we can go Home now :)</Link>
       </PageDefault>
     </>
   );

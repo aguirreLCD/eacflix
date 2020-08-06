@@ -27,10 +27,10 @@ function Carousel({ ignoreFirstVideo, category }) {
           if (ignoreFirstVideo && index === 0) {
             return null;
           }
-
           return (
             <SliderItem key={video.title}>
               <VideoCard
+                //here
                 videoTitle={video.title}
                 videoURL={video.url}
                 categoryColor={categoryColor}

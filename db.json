@@ -62,13 +62,19 @@
         "text": "Learning courses at Alura",
         "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
       }
+    },
+    {
+      "title": "Learning English",
+      "description": "Learning English",
+      "color": "#00ffff",
+      "id": 8
     }
   ],
   "videos": [
     {
       "id": 1,
       "categoryId": 1,
-      "title": "Acoustical Engineering - Tips",
+      "title": "Acoustical Engineering | TIPS",
       "url": "https://www.youtube.com/watch?v=QL1TVyWI6l8"
     },
     {
@@ -80,7 +86,7 @@
     {
       "id": 3,
       "categoryId": 1,
-      "title": "Engenharia Acústica | Acoustical Engineering | DICAS DE SOBREVIVÊNCIA NA SELVA",
+      "title": "Engenharia Acústica | DICAS",
       "url": "https://www.youtube.com/watch?v=SAtwoFGgs8Q"
     },
     {
@@ -286,6 +292,30 @@
       "categoryId": 7,
       "title": "Como aprender a programar?",
       "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+    },
+    {
+      "title": "Special Day",
+      "url": "https://www.youtube.com/watch?v=jEtv9d4MT70",
+      "categoryId": 1,
+      "id": 38
+    },
+    {
+      "title": "Sergio Aguirre (Eriksholm Research Centre)",
+      "url": "https://www.youtube.com/watch?v=KvT5PoPv2Ds&t=108s",
+      "categoryId": 1,
+      "id": 39
+    },
+    {
+      "title": "Raquel Rossatto Rocha (Giner)",
+      "url": "https://www.youtube.com/watch?v=vwRSCgTz3dY",
+      "categoryId": 1,
+      "id": 40
+    },
+    {
+      "title": "VERY HARD Prepositions Quiz!",
+      "url": "https://www.youtube.com/watch?v=nlnbWicrLbE",
+      "categoryId": 8,
+      "id": 41
     }
   ]
 }

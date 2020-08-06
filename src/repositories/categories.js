@@ -24,7 +24,23 @@ function getAllWithVideos() {
   );
 }
 
+function create(categoryObject) {
+  return fetch(`${URL_CATEGORIES}`, {
+    method: "POST",
+    headers: {
+      "Content-type": "application/json",
+    },
+    body: JSON.stringify(categoryObject),
+  }).then(async (serverResponse) => {
+    if (serverResponse.ok) {
+      const response = await serverResponse.json();
+      return response;
+    }
+    throw new Error("we can't add the data...please try again.");
+  });
+}
 export default {
   getAllWithVideos,
   getAll,
+  create,
 };

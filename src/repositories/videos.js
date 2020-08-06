@@ -2,7 +2,7 @@ import config from "../config";
 
 const URL_VIDEOS = `${config.URL_BACKEND}/videos`;
 
-function create(videoObject) {
+const create = (videoObject) => {
   return fetch(`${URL_VIDEOS}?_embed=videos`, {
     method: "POST",
     headers: {
@@ -16,7 +16,7 @@ function create(videoObject) {
     }
     throw new Error("Error: we cant't register the data. Please try again.");
   });
-}
+};
 
 export default {
   create,

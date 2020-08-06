@@ -1,50 +1,54 @@
 import React, { useState, useEffect } from "react";
+import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
 import PageDefault from "../../../components/PageDefault";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
 import useForm from "../../../hooks/useForm";
+// import videosRepository from "../../../repositories/videos";
+import categoriesRepository from "../../../repositories/categories";
 
 function InsertCategory() {
-  const initialValues = {
-    name: "",
+  const history = useHistory();
+  const [categories, setCategories] = useState([]);
+  const { handleChange, values } = useForm({
+    title: "",
     description: "",
     color: "#c00000",
-  };
-
-  const { handleChange, values, clearForm } = useForm(initialValues);
-
-  const [categories, setCategories] = useState([]);
+  });
 
   useEffect(() => {
-    const URL = window.location.hostname.includes("localhost")
-      ? "http://localhost:8080/categories"
-      : "https://eacflix.herokuapp.com/categories";
-    fetch(URL).then(async (serverResponse) => {
-      const response = await serverResponse.json();
-      setCategories([...response]);
+    categoriesRepository.getAll().then((categoriesFromServer) => {
+      setCategories(categoriesFromServer);
     });
   }, []);
 
   return (
     <>
       <PageDefault>
-        <h1>Add new Category: {values.name}</h1>
+        <h1>Add new Category: {values.title}</h1>
 
         <form
-          onSubmit={function handleSubmit(eventInfos) {
-            eventInfos.preventDefault();
+          onSubmit={(event) => {
+            event.preventDefault();
 
-            setCategories([...categories, values]);
-
-            clearForm();
+            categoriesRepository
+              .create({
+                title: values.title,
+                description: values.description,
+                color: values.color,
+              })
+              .then(() => {
+                console.log("well done!");
+                history.push("/");
+              });
           }}
         >
           <FormField
             label="Category Name"
             type="text"
-            name="name"
-            value={values.name}
+            name="title"
+            value={values.title}
             onChange={handleChange}
           />
 
@@ -64,16 +68,33 @@ function InsertCategory() {
             onChange={handleChange}
           />
 
-          <Button>Insert</Button>
+          <Button>Insert category</Button>
         </form>
 
         {categories.length === 0 && <div>Loading...</div>}
 
         <ul>
+          <h3
+            style={{
+              margin: "0",
+              position: "relative",
+              color: "#c00000",
+            }}
+          >
+            ... we already have this Categories registered:
+          </h3>
           {categories.map((category, index) => {
             return <li key={`${category}${index}`}>{category.title}</li>;
           })}
         </ul>
+
+        <br />
+        <br />
+
+        <Link to="/insert/video">You can Add a new video here</Link>
+
+        <br />
+        <br />
 
         <Link to="/">Ok, we can go Home now</Link>
       </PageDefault>
