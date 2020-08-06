@@ -6,7 +6,7 @@
       "color": "#c00000",
       "link_extra": {
         "text": "Sergio Luiz Aguirre - Acoustical Engineer",
-        "url": "https://www.youtube.com/watch?v=jEtv9d4MT70"
+        "url": "https://www.youtube.com/user/serginhodjk"
       }
     },
     {
@@ -14,8 +14,8 @@
       "title": "A PhD student's routine in DK",
       "color": "#00c0c0",
       "link_extra": {
-        "text": "#Sergio Luiz Aguirre",
-        "url": "https://www.youtube.com/watch?v=9j0AFlwcImo"
+        "text": "Sergio Luiz Aguirre",
+        "url": "https://www.youtube.com/user/serginhodjk"
       }
     },
     {
@@ -69,7 +69,7 @@
       "id": 1,
       "categoryId": 1,
       "title": "Acoustical Engineering - Tips",
-      "link": "https://www.youtube.com/watch?v=QL1TVyWI6l8"
+      "url": "https://www.youtube.com/watch?v=QL1TVyWI6l8"
     },
     {
       "id": 2,
