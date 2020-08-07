@@ -19,45 +19,6 @@
       }
     },
     {
-      "id": 3,
-      "title": "Front End",
-      "color": "#3185fc",
-      "link_extra": {
-        "text": "Front End Courses at Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
-    },
-    {
-      "id": 4,
-      "title": "Back End",
-      "color": "#6b5be2",
-      "link_extra": {
-        "text": "Back End courses at Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      }
-    },
-    {
-      "id": 5,
-      "title": "Data Science and Artificial Intelligence",
-      "color": "#9cd33b",
-      "link_extra": {
-        "text": "Data Science courses at Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      }
-    },
-    {
-      "title": "Learning English",
-      "description": "Learning English",
-      "color": "#ff9900",
-      "id": 11
-    },
-    {
-      "title": "Jose Pedro de Santana Neto",
-      "description": "Jose Pedro de Santana Neto",
-      "color": "#404040",
-      "id": 12
-    },
-    {
       "title": "INAD Brasil",
       "description": "INAD - Dia Internacional da Conscientização Sobre o Ruído",
       "color": "#9800c2",
@@ -138,102 +99,6 @@
       "url": "https://www.youtube.com/watch?v=9j0AFlwcImo&t=2s"
     },
     {
-      "id": 13,
-      "categoryId": 3,
-      "title": "O que faz uma desenvolvedora front-end?",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
-    },
-    {
-      "id": 14,
-      "categoryId": 3,
-      "title": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-    },
-    {
-      "id": 15,
-      "categoryId": 3,
-      "title": "Componentização com VanillaJS",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
-    },
-    {
-      "id": 16,
-      "categoryId": 3,
-      "title": "Pare de chutar e aprenda CSS",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-    },
-    {
-      "id": 17,
-      "categoryId": 3,
-      "title": "Template String: Interpolando strings com JavaScript",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-    },
-    {
-      "id": 18,
-      "categoryId": 3,
-      "title": "Qual é a melhor linguagem de programação?",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-    },
-    {
-      "id": 19,
-      "categoryId": 3,
-      "title": "Base para aprender os frameworks",
-      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-    },
-    {
-      "id": 20,
-      "categoryId": 4,
-      "title": "ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-    },
-    {
-      "id": 21,
-      "categoryId": 4,
-      "title": "GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-    },
-    {
-      "id": 22,
-      "categoryId": 4,
-      "title": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-    },
-    {
-      "id": 23,
-      "categoryId": 4,
-      "title": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-    },
-    {
-      "id": 24,
-      "categoryId": 4,
-      "title": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-    },
-    {
-      "id": 25,
-      "categoryId": 5,
-      "title": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-    },
-    {
-      "id": 26,
-      "categoryId": 5,
-      "title": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-    },
-    {
-      "id": 27,
-      "categoryId": 5,
-      "title": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-    },
-    {
-      "id": 28,
-      "categoryId": 5,
-      "title": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-    },
-    {
       "title": "Special Day",
       "url": "https://www.youtube.com/watch?v=jEtv9d4MT70",
       "categoryId": 1,
@@ -244,24 +109,6 @@
       "url": "https://www.youtube.com/watch?v=KvT5PoPv2Ds&t=108s",
       "categoryId": 1,
       "id": 39
-    },
-    {
-      "title": "Raquel Rossatto Rocha (Giner)",
-      "url": "https://www.youtube.com/watch?v=vwRSCgTz3dY",
-      "categoryId": 1,
-      "id": 40
-    },
-    {
-      "title": "IN time or ON time?",
-      "url": "https://www.youtube.com/watch?v=tXhkSPuKJsQ",
-      "categoryId": 11,
-      "id": 45
-    },
-    {
-      "title": "C++ para Usuários de MATLAB",
-      "url": "https://www.youtube.com/watch?v=ATD_6M54fyw",
-      "categoryId": 12,
-      "id": 46
     },
     {
       "title": "Spot INAD 2020 - Lado (E)letrônico",

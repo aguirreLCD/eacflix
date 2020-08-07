@@ -10,14 +10,14 @@ import categoriesRepository from "../../../repositories/categories";
 function InsertCategory() {
   const history = useHistory();
   const [categories, setCategories] = useState([]);
-  const { handleChange, values, handleRemove, clearForm } = useForm({
+  const { handleChange, values, handleRemoveCategory } = useForm({
     title: "",
     description: "",
     color: "#c00000",
   });
 
   useEffect(() => {
-    categoriesRepository.getAll().then((categoriesFromServer) => {
+    categoriesRepository.getAllCategories().then((categoriesFromServer) => {
       setCategories(categoriesFromServer);
     });
   }, []);
@@ -32,7 +32,7 @@ function InsertCategory() {
             event.preventDefault();
 
             categoriesRepository
-              .create({
+              .createCategoryObject({
                 title: values.title,
                 description: values.description,
                 color: values.color,
@@ -88,18 +88,19 @@ function InsertCategory() {
                 <span>{category.title}</span>
                 <Button
                   style={{
+                    position: "relative",
                     width: "40px",
                     height: "40px",
                     border: "none",
-                    borderRadius: "10%",
                     fontSize: "13px",
-                    color: "red",
+                    color: "#c00000",
                     cursor: "pointer",
+                    outline: "none",
                   }}
                   onClick={(event) => {
                     event.preventDefault();
                     console.log(category.id);
-                    handleRemove(event, category.id);
+                    handleRemoveCategory(event, category.id);
                     history.push("/");
                   }}
                 >

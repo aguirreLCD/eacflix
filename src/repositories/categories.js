@@ -2,7 +2,7 @@ import config from "../config";
 
 const URL_CATEGORIES = `${config.URL_BACKEND}/categories`;
 
-function getAll() {
+function getAllCategories() {
   return fetch(`${URL_CATEGORIES}`).then(async (serverResponse) => {
     if (serverResponse.ok) {
       const response = await serverResponse.json();
@@ -12,7 +12,7 @@ function getAll() {
   });
 }
 
-function getAllWithVideos() {
+function getAllCategoriesWithVideos() {
   return fetch(`${URL_CATEGORIES}?_embed=videos`).then(
     async (serverResponse) => {
       if (serverResponse.ok) {
@@ -24,7 +24,7 @@ function getAllWithVideos() {
   );
 }
 
-function create(categoryObject) {
+function createCategoryObject(categoryObject) {
   return fetch(`${URL_CATEGORIES}`, {
     method: "POST",
     headers: {
@@ -51,8 +51,8 @@ function removeCategory(id) {
 }
 
 export default {
-  getAllWithVideos,
-  getAll,
-  create,
+  getAllCategoriesWithVideos,
+  getAllCategories,
+  createCategoryObject,
   removeCategory,
 };

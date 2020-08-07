@@ -9,7 +9,7 @@ function Home() {
 
   useEffect(() => {
     categoriesRepository
-      .getAllWithVideos()
+      .getAllCategoriesWithVideos()
       .then((categoriesWithVideos) => {
         console.log(categoriesWithVideos[0].videos[0]);
         setInitialData(categoriesWithVideos);
