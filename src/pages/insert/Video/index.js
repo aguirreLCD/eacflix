@@ -78,9 +78,7 @@ function InsertVideo() {
         <br />
         <br />
 
-        <Link to="/insert/category">
-          ...now, we can Add a new category here
-        </Link>
+        <Link to="/insert/category">You can Add a new category here...</Link>
 
         <br />
         <br />

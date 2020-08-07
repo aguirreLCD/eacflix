@@ -46,40 +46,22 @@
       }
     },
     {
-      "id": 6,
-      "title": "Games",
-      "color": "#2A7AE4",
-      "link_extra": {
-        "text": "Training Games at Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      }
-    },
-    {
-      "id": 7,
-      "title": "Learning to learn technology",
-      "color": "#c00000",
-      "link_extra": {
-        "text": "Learning courses at Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      }
-    },
-    {
       "title": "Learning English",
       "description": "Learning English",
-      "color": "#00ffff",
-      "id": 8
+      "color": "#ff9900",
+      "id": 11
     },
     {
-      "title": "Workout",
-      "description": "Move your body baby!",
-      "color": "#9900ff",
-      "id": 9
+      "title": "Jose Pedro de Santana Neto",
+      "description": "Jose Pedro de Santana Neto",
+      "color": "#404040",
+      "id": 12
     },
     {
-      "title": "Yoga Lovers",
-      "description": "let’s take a deep breath in...",
-      "color": "#a1c3e8",
-      "id": 10
+      "title": "INAD Brasil",
+      "description": "INAD - Dia Internacional da Conscientização Sobre o Ruído",
+      "color": "#9800c2",
+      "id": 13
     }
   ],
   "videos": [
@@ -252,60 +234,6 @@
       "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
     },
     {
-      "id": 29,
-      "categoryId": 6,
-      "title": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-    },
-    {
-      "id": 30,
-      "categoryId": 6,
-      "title": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-    },
-    {
-      "id": 31,
-      "categoryId": 6,
-      "title": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-    },
-    {
-      "id": 32,
-      "categoryId": 6,
-      "title": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-    },
-    {
-      "id": 33,
-      "categoryId": 7,
-      "title": "Como estudar melhor?",
-      "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-    },
-    {
-      "id": 34,
-      "categoryId": 7,
-      "title": "Faculdade",
-      "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-    },
-    {
-      "id": 35,
-      "categoryId": 7,
-      "title": "Frameworks",
-      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-    },
-    {
-      "id": 36,
-      "categoryId": 7,
-      "title": "A mágica do Aprendizado",
-      "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-    },
-    {
-      "id": 37,
-      "categoryId": 7,
-      "title": "Como aprender a programar?",
-      "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
-    },
-    {
       "title": "Special Day",
       "url": "https://www.youtube.com/watch?v=jEtv9d4MT70",
       "categoryId": 1,
@@ -324,28 +252,22 @@
       "id": 40
     },
     {
-      "title": "VERY HARD Prepositions Quiz!",
-      "url": "https://www.youtube.com/watch?v=nlnbWicrLbE",
-      "categoryId": 8,
-      "id": 41
+      "title": "IN time or ON time?",
+      "url": "https://www.youtube.com/watch?v=tXhkSPuKJsQ",
+      "categoryId": 11,
+      "id": 45
     },
     {
-      "title": "10 Min Toned Arms",
-      "url": "https://www.youtube.com/watch?v=l0CwCvJbGZI",
-      "categoryId": 9,
-      "id": 42
+      "title": "C++ para Usuários de MATLAB",
+      "url": "https://www.youtube.com/watch?v=ATD_6M54fyw",
+      "categoryId": 12,
+      "id": 46
     },
     {
-      "title": "Yoga for Inner Space Travel",
-      "url": "https://www.youtube.com/watch?v=h6lKRlAjq2s",
-      "categoryId": 10,
-      "id": 43
-    },
-    {
-      "title": "Core  //hard-core ",
-      "url": "https://www.youtube.com/watch?v=z0vL_C4wO_A",
-      "categoryId": 9,
-      "id": 44
+      "title": "Spot INAD 2020 - Lado (E)letrônico",
+      "url": "https://www.youtube.com/watch?v=5a6k4TRGJZQ",
+      "categoryId": 13,
+      "id": 47
     }
   ]
 }

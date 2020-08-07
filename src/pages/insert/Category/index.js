@@ -5,13 +5,12 @@ import PageDefault from "../../../components/PageDefault";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
 import useForm from "../../../hooks/useForm";
-// import videosRepository from "../../../repositories/videos";
 import categoriesRepository from "../../../repositories/categories";
 
 function InsertCategory() {
   const history = useHistory();
   const [categories, setCategories] = useState([]);
-  const { handleChange, values } = useForm({
+  const { handleChange, values, handleRemove, clearForm } = useForm({
     title: "",
     description: "",
     color: "#c00000",
@@ -83,8 +82,31 @@ function InsertCategory() {
           >
             ... we already have this Categories registered:
           </h3>
-          {categories.map((category, index) => {
-            return <li key={`${category}${index}`}>{category.title}</li>;
+          {categories.map((category) => {
+            return (
+              <li key={category.id}>
+                <span>{category.title}</span>
+                <Button
+                  style={{
+                    width: "40px",
+                    height: "40px",
+                    border: "none",
+                    borderRadius: "10%",
+                    fontSize: "13px",
+                    color: "red",
+                    cursor: "pointer",
+                  }}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    console.log(category.id);
+                    handleRemove(event, category.id);
+                    history.push("/");
+                  }}
+                >
+                  Remove
+                </Button>
+              </li>
+            );
           })}
         </ul>
 
@@ -96,7 +118,7 @@ function InsertCategory() {
         <br />
         <br />
 
-        <Link to="/">Ok, we can go Home now</Link>
+        <Link to="/">Or, we can go Home now</Link>
       </PageDefault>
     </>
   );

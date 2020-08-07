@@ -39,8 +39,20 @@ function create(categoryObject) {
     throw new Error("we can't add the data...please try again.");
   });
 }
+
+function removeCategory(id) {
+  return fetch(`${URL_CATEGORIES}/${id}?_embed=videos`, {
+    method: "DELETE",
+  }).then((serverResponse) => {
+    if (!serverResponse.ok) {
+      throw new Error("we can't delete the data...please try again.");
+    }
+  });
+}
+
 export default {
   getAllWithVideos,
   getAll,
   create,
+  removeCategory,
 };
