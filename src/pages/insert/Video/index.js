@@ -82,6 +82,15 @@ function InsertVideo() {
 
         {videos.length === 0 && <div>Loading...</div>}
 
+        <br />
+        <br />
+        <Link to="/insert/category">You can Add a new category here...</Link>
+        <br />
+        <br />
+        <Link to="/">Or, we can go Home now :)</Link>
+        <br />
+        <br />
+
         <ul>
           <h3
             style={{
@@ -120,16 +129,6 @@ function InsertVideo() {
             );
           })}
         </ul>
-
-        <br />
-        <br />
-
-        <Link to="/insert/category">You can Add a new category here...</Link>
-
-        <br />
-        <br />
-
-        <Link to="/">Or, we can go Home now :)</Link>
       </PageDefault>
     </>
   );

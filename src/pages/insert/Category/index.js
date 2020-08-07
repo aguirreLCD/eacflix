@@ -72,6 +72,15 @@ function InsertCategory() {
 
         {categories.length === 0 && <div>Loading...</div>}
 
+        <br />
+        <br />
+        <Link to="/insert/video">You can Add a new video here</Link>
+        <br />
+        <br />
+        <Link to="/">Or, we can go Home now</Link>
+        <br />
+        <br />
+
         <ul>
           <h3
             style={{
@@ -110,16 +119,6 @@ function InsertCategory() {
             );
           })}
         </ul>
-
-        <br />
-        <br />
-
-        <Link to="/insert/video">You can Add a new video here</Link>
-
-        <br />
-        <br />
-
-        <Link to="/">Or, we can go Home now</Link>
       </PageDefault>
     </>
   );
