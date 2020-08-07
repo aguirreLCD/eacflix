@@ -80,7 +80,7 @@ function InsertCategory() {
               color: "#c00000",
             }}
           >
-            ... we already have this Categories registered:
+            ... we already have these Categories registered:
           </h3>
           {categories.map((category) => {
             return (

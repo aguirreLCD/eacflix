@@ -30,8 +30,9 @@ export const VideoCardContainer = styled.a`
   }
 
   h2 {
+    font-family: "Play", sans-serif;
     font-size: 13px;
     color: black;
-    background: #00ccdd;
+    background: #a7b9e4;
   }
 `;

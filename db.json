@@ -14,7 +14,7 @@
       "title": "A PhD student's routine in DK",
       "color": "#00c0c0",
       "link_extra": {
-        "text": "Sergio Luiz Aguirre",
+        "text": "Sergio Luiz Aguirre - Acoustical Engineer",
         "url": "https://www.youtube.com/user/serginhodjk"
       }
     },
@@ -23,13 +23,43 @@
       "description": "INAD - Dia Internacional da Conscientização Sobre o Ruído",
       "color": "#9800c2",
       "id": 13
+    },
+    {
+      "title": "Engenharia Acústica",
+      "description": "EAC - UFSM no Youtube",
+      "color": "#21376b",
+      "id": 14
+    },
+    {
+      "title": "Professor Eric Brandão",
+      "description": "Este é um canal com algumas aulas de acústica de salas (EAC 1013) do curso de Engenharia Acústica da UFSM.",
+      "color": "#e4d2a7",
+      "id": 15
+    },
+    {
+      "title": "Professor Paulo Henrique Mareze",
+      "description": "Professor Paulo Henrique Mareze\n",
+      "color": "#a7d8e4",
+      "id": 16
+    },
+    {
+      "title": "Professor Bruno Masiero",
+      "description": "Professor Bruno Masiero",
+      "color": "#a7e4b3",
+      "id": 17
+    },
+    {
+      "title": "Babilônia Acústica",
+      "description": "Somos a Babilônia Acústica. Trabalhamos para construir o silêncio, mas não o silêncio como conforto, caro. Vemos o silêncio como parte fundamental da qualidade de vida de qualquer cidadão, por isso queremos tornar a acústica acessível, não só em nossos serviços, mas na distribuição de conteúdo relacionado à nossa área de atuação. ",
+      "color": "#6677c4",
+      "id": 18
     }
   ],
   "videos": [
     {
       "id": 1,
       "categoryId": 1,
-      "title": "Acoustical Engineering | TIPS",
+      "title": "Acoustical Engineering | Tips",
       "url": "https://www.youtube.com/watch?v=QL1TVyWI6l8"
     },
     {
@@ -41,7 +71,7 @@
     {
       "id": 3,
       "categoryId": 1,
-      "title": "Engenharia Acústica | DICAS",
+      "title": "Engenharia Acústica | Tips",
       "url": "https://www.youtube.com/watch?v=SAtwoFGgs8Q"
     },
     {
@@ -53,7 +83,7 @@
     {
       "id": 5,
       "categoryId": 1,
-      "title": "Engenharia Acústica | PRO TIPS",
+      "title": "Engenharia Acústica | Pro-tips",
       "url": "https://www.youtube.com/watch?v=3N2ebT4MVPc"
     },
     {
@@ -105,16 +135,172 @@
       "id": 38
     },
     {
-      "title": "Sergio Aguirre (Eriksholm Research Centre)",
-      "url": "https://www.youtube.com/watch?v=KvT5PoPv2Ds&t=108s",
-      "categoryId": 1,
-      "id": 39
-    },
-    {
       "title": "Spot INAD 2020 - Lado (E)letrônico",
       "url": "https://www.youtube.com/watch?v=5a6k4TRGJZQ",
       "categoryId": 13,
       "id": 47
+    },
+    {
+      "title": "Spot Campanha INAD Brasil 2020 - Lado A Instrumental",
+      "url": "https://www.youtube.com/watch?v=0OPy3obiMLE",
+      "categoryId": 13,
+      "id": 48
+    },
+    {
+      "title": "Spot Campanha INAD Brasil 2020 - Lado B",
+      "url": "https://www.youtube.com/watch?v=F0hBvETmdEU",
+      "categoryId": 13,
+      "id": 49
+    },
+    {
+      "title": "Spot Campanha INAD Brasil 2020",
+      "url": "https://www.youtube.com/watch?v=p0W6z4zvh7w",
+      "categoryId": 13,
+      "id": 50
+    },
+    {
+      "title": "Sergio Aguirre (Eriksholm Research Centre)",
+      "url": "https://www.youtube.com/watch?v=KvT5PoPv2Ds",
+      "categoryId": 14,
+      "id": 51
+    },
+    {
+      "title": "Raquel Rossatto Rocha (Giner)",
+      "url": "https://www.youtube.com/watch?v=vwRSCgTz3dY",
+      "categoryId": 14,
+      "id": 52
+    },
+    {
+      "title": "Generating and Testing HRTFs in Matlab",
+      "url": "https://www.youtube.com/watch?v=hf1kJmWnpSc",
+      "categoryId": 14,
+      "id": 53
+    },
+    {
+      "title": "Aula 15 (pt 1) - Acústica geométrica (Traçado de raios)",
+      "url": "https://www.youtube.com/watch?v=A3JKilwXoGM",
+      "categoryId": 15,
+      "id": 54
+    },
+    {
+      "title": "Aula 15 (pt 2) - Acústica geométrica (Fontes virtuais)",
+      "url": "https://www.youtube.com/watch?v=6zqwCGUa9PM",
+      "categoryId": 15,
+      "id": 55
+    },
+    {
+      "title": "Aula 15 (pt 3) - Acústica geométrica (Auralização)",
+      "url": "https://www.youtube.com/watch?v=N_IEkmqk8Kg",
+      "categoryId": 15,
+      "id": 56
+    },
+    {
+      "title": "Aula 16 (pt 1) - Acústica estatística (densidade de energia - análise qualitativa)",
+      "url": "https://www.youtube.com/watch?v=DDjmZjjbhec",
+      "categoryId": 15,
+      "id": 57
+    },
+    {
+      "title": "Aula 16 (pt 2) - Acústica estatística (densidade de energia)",
+      "url": "https://www.youtube.com/watch?v=P7D6Vx-zrV8",
+      "categoryId": 15,
+      "id": 58
+    },
+    {
+      "title": "Controle de Ruído - Aula 8 (Parte 1)",
+      "url": "https://www.youtube.com/watch?v=J4xalxsNC6Y",
+      "categoryId": 16,
+      "id": 59
+    },
+    {
+      "title": "Controle de Ruído - Aula 8 (Parte 2)",
+      "url": "https://www.youtube.com/watch?v=_Uef40vTQMw",
+      "categoryId": 16,
+      "id": 60
+    },
+    {
+      "title": "Controle de Ruído - Aula 8 (Parte 3)",
+      "url": "https://www.youtube.com/watch?v=i0wnObyTSFs",
+      "categoryId": 16,
+      "id": 61
+    },
+    {
+      "title": "Controle de Ruído - Aula 8 (Parte 4)",
+      "url": "https://www.youtube.com/watch?v=Pr5UgWWH00E",
+      "categoryId": 16,
+      "id": 62
+    },
+    {
+      "title": "Controle de Ruído - Aula 8 (Parte 5)",
+      "url": "https://www.youtube.com/watch?v=X-Kwm9oRlxM",
+      "categoryId": 16,
+      "id": 63
+    },
+    {
+      "title": "Som, Audição e Psicoacústica: Introdução",
+      "url": "https://www.youtube.com/watch?v=Ri3uzsAbSMI",
+      "categoryId": 17,
+      "id": 64
+    },
+    {
+      "title": "Som, Audição e Psicoacústica: Fontes Sonoras",
+      "url": "https://www.youtube.com/watch?v=HVQTN5ByGTc",
+      "categoryId": 17,
+      "id": 65
+    },
+    {
+      "title": "Som, Audição e Psicoacústica: Meio de transmissão",
+      "url": "https://www.youtube.com/watch?v=4fDhJ80--Cc",
+      "categoryId": 17,
+      "id": 66
+    },
+    {
+      "title": "Som, Audição e Psicoacústica: Receptores Sonoros",
+      "url": "https://www.youtube.com/watch?v=9sB992f4Src",
+      "categoryId": 17,
+      "id": 67
+    },
+    {
+      "title": "Som, Audição e Psicoacústica: Psicoacústica",
+      "url": "https://www.youtube.com/watch?v=MvH0vN8FS2U",
+      "categoryId": 17,
+      "id": 68
+    },
+    {
+      "title": "Babilônia Entrevista - M.Sc. Sergio Aguirre",
+      "url": "https://www.youtube.com/watch?v=kjHORG1SnU4",
+      "categoryId": 18,
+      "id": 69
+    },
+    {
+      "title": "Babilônia Entrevista: M.Sc. Ingrid Knochenhauer de Souza",
+      "url": "https://www.youtube.com/watch?v=AEViHiPs8C4",
+      "categoryId": 18,
+      "id": 70
+    },
+    {
+      "title": "Babilônia Entrevista - Edison Claro de Moraes",
+      "url": "https://www.youtube.com/watch?v=LfalJAZ-XjE",
+      "categoryId": 18,
+      "id": 71
+    },
+    {
+      "title": "Dicas de Home Office: Reuniões com aplicativo Krisp",
+      "url": "https://www.youtube.com/watch?v=E2dKg5ozkSM",
+      "categoryId": 18,
+      "id": 72
+    },
+    {
+      "title": "Sons do mar",
+      "url": "https://www.youtube.com/watch?v=nplIwFj-Yak",
+      "categoryId": 18,
+      "id": 73
+    },
+    {
+      "title": "Engenharia Acústica promove 3ª semana acadêmica",
+      "url": "https://www.youtube.com/watch?v=IJu0dXnSTwE",
+      "categoryId": 14,
+      "id": 74
     }
   ]
 }

@@ -90,7 +90,7 @@ function InsertVideo() {
               color: "#c00000",
             }}
           >
-            ... we already have this Videos registered:
+            ... we already have these Videos registered:
           </h3>
           {videos.map((video) => {
             return (
